@@ -94,6 +94,7 @@ h1.section-header {
 
 .about-me {
     display: flex;
+    align-items: center;
 }
 
 .about-me-text {
@@ -117,11 +118,14 @@ h1.section-header {
     /* border: 1px solid black; */
 
     flex: 1;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .about-me-image>img {
     max-height: 100%;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .experience-container {
